@@ -1,0 +1,77 @@
+body {
+    font-family: "Lato";
+}
+header {
+    background-color: #fcf8e8;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+button {
+    font-size: 1rem;
+    border-radius: 12%;
+    color: #010620;
+    background-color: #09035e15;
+}
+
+.header-buttons>li {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto 1rem;
+}
+
+.ntt-logo-header {
+    width: 200px;
+    margin: 1rem 3.2rem;
+}
+
+.section-buttons {
+    margin-left: 56.2rem;
+}
+
+.section-buttons>li {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto 1.5rem;
+}
+
+.main-container {
+    background-color: #ecdfc8;
+    margin: 50px;
+}
+
+.activity-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 15rem;
+    margin-bottom: 5rem;
+}
+
+.form-column {
+    line-height: 2rem;
+}
+
+label {
+    text-align: right;
+    display: inline-block;
+    width: 250px;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+
+.reportable-radio {
+    width: 2rem;
+    text-align: center;
+}
+
+.footer-options>li {
+    list-style-type: none;
+    display: inline-block;
+    width: 5rem;
+    margin-left: 1rem;
+}

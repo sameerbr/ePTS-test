@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>NTT Data ePTS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-grid">
+            <div>
+                <img class="ntt-logo-header" src="images/ntt-data-logo.png" alt="ntt-data-logo">
+            </div>
+            <div>
+                <ul class="header-buttons">
+                    <li>
+                        <button type="button" href="#">Time Entry</button>
+                    </li>
+                    <li>
+                        <button type="button" href="#">Reports</button>
+                    </li>
+                    <li>
+                        <button type="button" href="#">Projects</button>
+                    </li>
+                    <li>
+                        <button type="button" href="#">Other</button>
+                    </li>
+                    <li>
+                        <button type="button" href="#">Admin</button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+
+    </header>
+
+    <section>
+        <div>
+            <ul class="section-buttons">
+                <li>
+                    <button type="submit" href="#">Submit</button>
+                </li>
+                <li>
+                    <button type="button" href="#">Clear</button>
+                </li>
+                <li>
+                    <button type="button" href="#">Done</button>
+                </li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <form action="#">
+                <div class="activity-container">
+                    <!-- First column -->
+                    <div class="form-column">
+                        <div>
+                            <label for="location">Location:</label>
+                            <input type="text" id="location">
+                        </div>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div>
+                            <label for="reportable">Reportable:</label>
+                            <input type="radio" id="reportable-yes" value="yes" name="reportable">
+                            <label for="reportable-yes" class="reportable-radio">Yes</label>
+                            <input type="radio" id="reportable-no" value="no" name="reportable">
+                            <label for="reportable-no" class="reportable-radio">No</label>
+                        </div>
+
+                        <div>
+                            <label for="activity-system">Activity System:</label>
+                            <select name="activity-system" id="activity-system">
+                                <option value="a">Activity 1</option>
+                                <option value="b">Activity 2</option>
+                                <option value="c">Activity 3</option>
+                                <option value="d">Activity 4</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="standard-name">Standard Name:</label>
+                            <select name="standard-name" id="standard-name">
+                                <option value="a">Name1</option>
+                                <option value="a">Name2</option>
+                                <option value="a">Name3</option>
+                                <option value="a">Name4</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="activity-client-name">Activity Client Name:</label>
+                            <input type="text" id="activity-client-name" name="activity-client-name"
+                                value="NONBILLABLE TIME">
+                        </div>
+
+                        <div>
+                            <label for="activity-percentage-complete">Activity Percentage Complete:</label>
+                            <input type="text" id="activity-percentage-complete" name="activity-percentage-complete"
+                                value="0">
+                            <span>%</span>
+                        </div>
+
+                        <div>
+                            <label for="activity-estimated-start-date">Activity Estimated Start Date:</label>
+                            <input type="text" id="activity-estimated-start-date" name="activity-estimated-start-date"
+                                value="1/1/2020">
+                        </div>
+                        <div>
+                            <label for="activity-estimated-complete-date">Activity Estimated Complete Date:</label>
+                            <input type="text" id="activity-estimated-complete-date"
+                                name="activity-estimated-complete-date" value="12/31/2020">
+                        </div>
+                        <div>
+                            <label for="activity-contractual-date">Activity Contractual Date:</label>
+                            <input type="text" id="activity-contractual-date" name="activity-contractual-date"
+                                value="08/01/2020">
+                        </div>
+                        <div>
+                            <label for="activity-accepted-date">Activity Accepted Date:</label>
+                            <input type="text" id="activity-accepted-date" name="activity-accepted-date"
+                                value="08/01/2020">
+                        </div>
+
+
+
+                    </div>
+                    <!-- Second column -->
+                    <div class="form-column">
+
+                        <div>
+                            <label for="sap-id">SAP ID:</label>
+                            <input type="text" id="sap-id">
+                        </div>
+
+                        <div>
+                            <label for="category-1">Category 1:</label>
+                            <input type="text" id="category-1">
+                        </div>
+                        <div>
+                            <label for="category-2">Category 2:</label>
+                            <input type="text" id="category-2">
+                        </div>
+                        <div>
+                            <label for="category-3">Category 3:</label>
+                            <input type="text" id="category-3">
+                        </div>
+                        <div>
+                            <label for="category-4">Category 4:</label>
+                            <input type="text" id="category-4">
+                        </div>
+                        <div>
+                            <label for="category-5">Category 5:</label>
+                            <input type="text" id="category-5">
+                        </div>
+                        <div>
+                            <label for="category-6">Category 6:</label>
+                            <input type="text" id="category-6">
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <hr>
+    </section>
+
+
+    <footer>
+        <div>
+            <ul class=footer-options>
+                <li>
+                    <a href="#">Top</a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
